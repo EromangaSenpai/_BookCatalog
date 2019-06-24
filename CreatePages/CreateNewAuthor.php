@@ -16,7 +16,7 @@ foreach ($publish as $item)
 }
 if(empty($publish))
 {
-    header("Location: MainPage.php");
+    header("Location: ../MainPage.php");
 }
 
 $info = '';
