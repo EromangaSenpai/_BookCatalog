@@ -15,7 +15,7 @@ foreach ($books as $item)
 }
 if(empty($books))
 {
-    header("Location: MainPage.php");
+    header("Location: CreateNewBook.php");
 }
 
 $info = '';
