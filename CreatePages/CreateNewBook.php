@@ -8,7 +8,7 @@ $author = R::findAll('author');
 
 if(empty($author))
 {
-    header("Location: MainPage.php");
+    header("Location: CreateNewAuthor.php");
 }
 
 $info = '';
